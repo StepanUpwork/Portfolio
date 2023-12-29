@@ -1,0 +1,17 @@
+@use 'sass:map';
+@use 'sass:math';
+//@import "font-face";
+@import "modules";
+@import "common";
+
+// Імпорт хедера
+@import "components/header";
+
+
+// Імпорт сторінок
+@import "pages/index";
+
+
+
+// Імпорт футера
+@import "components/footer";

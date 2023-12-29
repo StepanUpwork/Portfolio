@@ -1,0 +1,14 @@
+$contentWidth: 1200px;
+$containerPaddingWidth: 15px;
+
+$containerWidth: $contentWidth + $containerPaddingWidth * 2;
+
+$breakpoints: (
+   xxl 1920px,
+   xl 1450px,
+   lg 1230px,
+   md 1024px,
+   sm 767px,
+   xs 576px,
+   xxs 420px,
+);

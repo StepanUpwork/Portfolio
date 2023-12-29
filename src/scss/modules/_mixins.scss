@@ -1,0 +1,47 @@
+@mixin media($breakpoint) {
+   @media (min-width: $breakpoint){
+      @content;
+   }
+}
+
+@mixin TV1920 {
+   @media (min-width: map.get($breakpoints, xxl)){
+      @content;
+   }
+}
+
+@mixin desctopWide1450 {
+   @media (min-width: map.get($breakpoints, xl)){
+      @content;
+   }
+}
+
+@mixin desctop1230 {
+   @media (min-width: map.get($breakpoints, lg)){
+      @content;
+   }
+}
+
+@mixin laptop1024 {
+   @media (min-width: map.get($breakpoints, md)){
+      @content;
+   }
+}
+
+@mixin tablet767 {
+   @media (min-width: map.get($breakpoints, sm)){
+      @content;
+   }
+}
+
+@mixin tabletSmall576 {
+   @media (min-width: map.get($breakpoints, xs)){
+      @content;
+   }
+}
+
+@mixin mobile420 {
+   @media (min-width: map.get($breakpoints, xxs)){
+      @content;
+   }
+}

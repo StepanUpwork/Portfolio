@@ -1,0 +1,17 @@
+// TO %
+@function percent($pxOne, $pxTwo){
+   $result: math.div($pxOne, $pxTwo) * 100%;
+   @return $result;
+}
+
+// REM
+@function rem($px){
+   $result: math.div($px, 16) + rem;
+   @return $result;
+}
+
+// EM
+@function rem($px, $parentFontSize){
+   $result: math.div($px, $parentFontSize) + em;
+   @return $result;
+}
